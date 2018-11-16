@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style>
+.form{
+width:300px;
+margin:0 auto;
+}
+.c{
+
+font-size:20px;
+font-family:vardana;
+}
+.button{
+
+	background-color:white;
+	cursor: pointer;
+	color:black;
+	text-align: center;
+	padding: 8px 20px;
+	border-radius: 15%;
+	border: 2px solid #4CAF50;;
+	outline: none;
+	box-shadow: 9px 9px #999;
+
+}
+
+.button:hover{
+	
+	background-color: #4CAF50;
+}
+
+.button:active{
+	 background-color: #3e8e41;
+  	box-shadow: 5px 5px #666;
+  transform: translateY(4px);
+}
+
+</style>
+</head>
+
+<body>
+<fieldset><legend style="font-size:30px;">Fill Inventory Details</legend><br><br>
+<form class="form" action="SaveServlet" method="post">
+<div class="c">
+Flat Number&nbsp;<input type="text" name="flat"><br><br>
+Wing&emsp;&emsp;&emsp;<input type="text" name="wing"><br><br>
+Society&emsp;&emsp; <input type="text" name="society"><br><br>
+Locality&emsp;&emsp;<input type="text" name="locality"><br><br>
+Type&emsp;&emsp;&emsp;&nbsp;<select name="type">
+<option value="rental">Rental</option>
+<option value="sell">Sell</option>
+</select><br><br>
+<button type="submit" class="button" value="Submit">Submit</button>
+</div>
+</form>
+<br><br><br><br>
+</fieldset>
+</body>
+</html>

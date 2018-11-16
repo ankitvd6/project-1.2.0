@@ -1,0 +1,26 @@
+@charset "ISO-8859-1";
+.button{
+	
+	background-color:white;
+	cursor: pointer;
+	color:black;
+	text-align: center;
+	padding: 8px 20px;
+	border-radius: 32%;
+	border: 2px solid #4CAF50;;
+	outline: none;
+	box-shadow: 9px 9px #999;
+	margin:10px 10px;
+	
+
+}
+
+.button:hover{
+	opacity: .5;
+	background-color: black;
+}
+.button:active{
+	 background-color: #3e8e41;
+  	box-shadow: 5px 5px #666;
+  transform: translateY(4px);
+}

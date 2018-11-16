@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Inventory Login page</title>
+</head>
+
+<style>
+
+body{
+background: url(' https://imperialprogram.asia/wp-content/uploads/2017/03/3-Real-Estate.jpg') no-repeat;
+background-size:cover;
+font-family:Aria;
+
+
+}
+
+.c{
+
+font-size:20px;
+font-family:vardana;
+}
+
+.button{
+
+	background-color:white;
+	cursor: pointer;
+	color:black;
+	text-align: center;
+	padding: 8px 20px;
+	border-radius: 15%;
+	border: 2px solid #4CAF50;;
+	outline: none;
+	box-shadow: 9px 9px #999;
+
+}
+
+.button:hover{
+	
+	background-color: #4CAF50;
+}
+
+.button:active{
+	 background-color: #3e8e41;
+  	box-shadow: 5px 5px #666;
+  transform: translateY(4px);
+}
+
+.container form,
+.container form div{
+width:300px;
+margin:0 auto;
+}
+
+
+
+</style>
+
+
+<body>
+
+<p>
+<fieldset><legend style="font-size:30px;">Login</legend><br><br>
+
+<div class="container"> 
+<form  action="LoginServlet" method="post">
+
+Name &emsp;&nbsp;&nbsp;<input type="text" placeholder="Name" name="name"><br><br>
+Password&nbsp;<input type="password" placeholder="Password" name="pass"><br><br>
+<button type="submit" class="button" value="Login">Login</button>
+
+</form><br><br><br><br>
+</div>
+</fieldset>
+</p>
+</body>
+</html>
